@@ -1,0 +1,273 @@
+@media (max-width: 509px) {
+  .header_container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .header_menu_link {
+    padding-left: 25px;
+    padding-right: 25px;
+    border-bottom: 2px solid #cfc6c6;
+  }
+
+  nav {
+    width: 100%;
+    margin-right: 0px;
+  }
+
+  .header_menu_link {
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  .header_menu_link:hover {
+    border-bottom: 2px solid #0065fc;
+    border-top: none;
+  }
+
+  /* 1ere Section, formulaire de recherche */
+  .h1_principal {
+    margin-right: 30px;
+  }
+
+  .recherche {
+    display: flex;
+  }
+
+  .logo_lieu {
+    display: flex;
+    justify-content: center;
+    border-radius: 12px 0px 0px 12px;
+    padding: 23px;
+    position: relative;
+    left: 10%;
+    z-index: 30;
+    width: 5px;
+  }
+  .logo_lieu i {
+    color: black;
+  }
+
+  #lieu {
+    width: 70%;
+    left: 60px;
+    padding-left: 15px;
+  }
+  .bouton {
+    display: none;
+  }
+  .loupe {
+    display: block;
+    background-color: #0065fc;
+    cursor: pointer;
+    border-radius: 12px 12px 12px 12px;
+    position: relative;
+    left: 65%;
+    top: 0px;
+    margin-top: 0px;
+    z-index: 21;
+    border: none;
+    height: 48px;
+  }
+
+  .loupe i {
+    color: white;
+    background-color: #0065fc;
+    font-size: 18px;
+    margin-right: 0px;
+  }
+
+  /* 1ere Section, filtres*/
+  .bloc_filtre {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 95%;
+  }
+
+  .bloc_filtre form i {
+    font-size: 13px;
+    background-color: #deebff;
+    padding: 12px;
+    border-radius: 20px;
+    color: #0065fc;
+    margin-right: 5px;
+  }
+  .filtre_formulaire {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 0px;
+  }
+  .filtre {
+    margin-bottom: 10px;
+  }
+
+  .info {
+    margin-left: 0px;
+  }
+  .informations {
+    margin-left: 25px;
+  }
+
+  /* 2eme section*/
+  .bloc_hebergement_groupe {
+    background-color: white;
+    margin: 20px 0px 0px 0px;
+    padding: 0px;
+  }
+  .bloc_hebergement_groupe h2 {
+    font-size: 20px;
+    padding-left: 15px;
+  }
+  .card_group {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 0px;
+  }
+  .card {
+    height: auto;
+    width: unset;
+    margin-bottom: 20px;
+  }
+
+  .card_image img {
+    height: 140px;
+  }
+
+  .card_h3 {
+    font-size: 18px;
+  }
+  .card_p {
+    font-size: 16px;
+    margin-top: 5px;
+  }
+  .card_container_note {
+    padding-bottom: 5px;
+  }
+
+  .bloc_hebergement {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  /*Aside*/
+
+  .populaire {
+    width: 100%;
+    margin: 0px;
+  }
+
+  .populaire_h3 {
+    font-size: 15px;
+  }
+  .populaire_p {
+    font-size: 16px;
+  }
+  .populaire_card_container {
+    margin-left: 25px;
+  }
+
+  /* Section Activités*/
+
+  .bloc_activites_marseille {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 20px 0px 20px;
+    margin-left: 0px;
+  }
+  .vieux_port {
+    margin-bottom: 20px;
+    height: auto;
+
+    width: 100%;
+    margin-left: 0px;
+  }
+
+  .vieux_port img {
+    height: 140px;
+  }
+  .fort_pomegues {
+    margin-bottom: 0px;
+
+    height: auto;
+    width: 100%;
+    margin-left: 0px;
+  }
+
+  .fort_pomegues img {
+    height: 140px;
+  }
+  .iles_frioul {
+    margin-bottom: 20px;
+    width: 100%;
+    height: auto;
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+
+  .iles_frioul img {
+    height: 140px;
+  }
+  .parc_calanques {
+    margin-bottom: 20px;
+    height: auto;
+    width: 100%;
+    margin-left: 0px;
+  }
+
+  .parc_calanques img {
+    height: 140px;
+  }
+  .notre_dame {
+    margin-bottom: 20px;
+    width: 100%;
+    height: auto;
+    margin-left: 0px;
+  }
+
+  .notre_dame img {
+    height: 140px;
+  }
+  .parc_longchamp {
+    margin-bottom: 20px;
+    width: 100%;
+    height: auto;
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+
+  .parc_longchamp img {
+    height: 140px;
+  }
+  .activites_p {
+    font-size: 18px;
+    width: 85%;
+  }
+  .block {
+    margin-left: 0px;
+    width: 100%;
+  }
+
+  .activites_marseille .block p {
+    display: flex;
+    align-items: center;
+    padding: 0px 0px 15px 0px;
+  }
+
+  /*footer*/
+
+  .footer_liste {
+    margin-right: 30px;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 0px;
+  }
+}

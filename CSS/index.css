@@ -1,0 +1,499 @@
+@font-face {
+  font-family: "raleway";
+  src: url("Raleway-Regular.ttf");
+}
+@font-face {
+  font-family: "raleway semibold";
+  src: url("Raleway-SemiBold.ttf");
+}
+
+body {
+  font-family: "raleway";
+  margin: 0;
+}
+
+/* En-tête */
+header {
+  width: 100%;
+}
+
+.header_container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo img {
+  width: 150px;
+  height: 60px;
+  margin: 15px 0 10px 35px;
+}
+.header_menu {
+  display: flex;
+  margin-top: 0px;
+  font-size: 20px;
+  list-style-type: none;
+}
+.header_menu_link {
+  margin-top: 0;
+  padding-top: 35px;
+  width: 50%;
+  text-align: center;
+}
+
+.header_lien {
+  text-decoration: none;
+  color: #756f6f;
+}
+nav {
+  width: 25%;
+  margin-right: 40px;
+}
+.header_menu {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding-left: 0px;
+}
+.header_menu_link:hover {
+  border-top: 1px solid #0065fc;
+}
+.header_lien:hover {
+  color: #0065fc;
+}
+
+/* 1ere Section, formulaire de recherche */
+.h1_principal {
+  font-family: "raleway semibold";
+  margin-left: 30px;
+  margin-bottom: 0px;
+}
+.petit_caractere {
+  color: #756f6f;
+  margin-left: 30px;
+}
+.logo_lieu i {
+  display: flex;
+  justify-content: center;
+  border: 1px solid #f2f2f2;
+  border-radius: 12px 0px 0px 12px;
+  background-color: #f2f2f2;
+  padding: 16px;
+  position: absolute;
+  top: 0px;
+  z-index: 30;
+  margin-left: 30px;
+  color: black;
+  font-size: 15px;
+}
+
+.recherche {
+  position: relative;
+  height: 49px;
+}
+#lieu {
+  font-size: 20px;
+  height: 44px;
+  width: 310px;
+  position: absolute;
+  left: 73px;
+  top: 0px;
+  z-index: 20;
+  border: 1px solid #f2f2f2;
+  padding-left: 13px;
+}
+.bouton {
+  background-color: #0065fc;
+  cursor: pointer;
+  color: white;
+  padding: 9px;
+  border-radius: 0px 12px 12px 0px;
+  font-size: 18px;
+  position: absolute;
+  top: 0px;
+  margin-top: 0px;
+  left: 380px;
+  z-index: 21;
+  border: none;
+  height: 48px;
+}
+.loupe {
+  display: none;
+}
+
+/* 1ere Section, filtres*/
+.bloc_filtre {
+  display: flex;
+  align-items: center;
+  margin: 25px 0px 25px 15px;
+}
+
+.h2_filtre {
+  margin-left: 20px;
+  font-size: 17px;
+  font-family: "raleway semibold";
+}
+
+.checkbox {
+  display: none;
+}
+.filter {
+  cursor: pointer;
+  border: 1px solid #d4caca;
+  border-radius: 18px;
+  border-left: none;
+  margin: 0px 10px;
+  padding: 7px 20px 8px 0;
+  font-family: "raleway semibold";
+  font-size: 16px;
+}
+.filter:hover {
+  background-color: #0065fc;
+  color: white;
+}
+
+.checkbox:checked + .filter {
+  background: #0065fc;
+  color: white;
+}
+form i {
+  font-size: 13px;
+  background-color: #deebff;
+  padding: 12px;
+  border-radius: 20px;
+  color: #0065fc;
+  margin-right: 5px;
+}
+
+.filtre_formulaire {
+  display: flex;
+  margin-left: 10px;
+}
+.info {
+  font-size: 10px;
+  color: #0065fc;
+  margin-right: 9px;
+  margin-left: 30px;
+  padding: 5px 9px 5px 9px;
+  border: 1px solid #cfc6c6;
+  border-radius: 25px;
+}
+.informations {
+  margin-bottom: 35px;
+  color: #756f6f;
+}
+
+/* 2eme section*/
+.bloc_hebergement_groupe {
+  border: none;
+  border-radius: 15px;
+  background-color: #f2f2f2;
+  height: 100%;
+  width: 100%;
+  margin-right: 10px;
+  margin-left: 30px;
+  padding: 0px 20px 30px 20px;
+}
+#ancre1 {
+  font-size: 20px;
+  margin-left: 15px;
+  margin-bottom: 18px;
+  font-family: "raleway semibold";
+}
+.card_group {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.card {
+  height: 200px;
+  width: 255px;
+  border: 3px solid white;
+  border-radius: 15px;
+  box-shadow: 1px 1px 10px grey;
+  background-color: white;
+  margin-bottom: 40px;
+}
+.card:hover {
+  color: #0065fc;
+}
+.card_lien {
+  text-decoration: none;
+}
+.card_lien:visited {
+  color: inherit;
+}
+
+.card_image img {
+  height: 120px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 15px 15px 0px 0px;
+}
+
+.card_container {
+  margin-left: 10px;
+}
+
+.card_h3 {
+  font-size: 15px;
+  font-family: "raleway semibold";
+  margin-top: 0px;
+  display: inline;
+}
+.card_p {
+  font-size: 13px;
+  margin-top: 8px;
+  color: #756f6f;
+}
+.card_container_note {
+  font-size: 12px;
+  color: #0065fc;
+}
+.afficher_plus {
+  font-size: 18px;
+  font-family: "raleway semibold";
+  width: 95%;
+  margin-left: 10px;
+}
+.afficher_plus_a {
+  text-decoration: none;
+  color: inherit;
+}
+.afficher_plus_a:visited {
+  color: inherit;
+}
+
+.bloc_hebergement {
+  display: flex;
+}
+
+/*Aside*/
+
+.populaire {
+  border: none;
+  border-radius: 15px;
+  background-color: #f2f2f2;
+  width: 50%;
+  margin: 0px 30px 40px 20px;
+  padding-bottom: 3px;
+}
+.populaire_a {
+  text-decoration: none;
+}
+.populaire_a:visited {
+  color: inherit;
+}
+.populaire_a:hover {
+  color: #0065fc;
+}
+.populaire_titre {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.populaire_titre i {
+  margin-right: 35px;
+  font-size: 20px;
+}
+.h2_hebergement {
+  font-size: 20px;
+  margin-left: 35px;
+  font-family: "raleway semibold";
+}
+.populaire_card {
+  display: flex;
+  margin-bottom: 25px;
+  border: 1px solid white;
+  border-radius: 15px;
+  box-shadow: 1px 1px 10px grey;
+  margin-left: 35px;
+  margin-right: 35px;
+  background-color: white;
+}
+.populaire_card_image {
+  display: flex;
+  width: 100px;
+  height: 160px;
+  margin: 3px;
+}
+.populaire_card_image img {
+  object-fit: cover;
+  width: 120px;
+  border-radius: 15px 0px 0px 15px;
+}
+.populaire_card_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 35px;
+}
+.populaire_h3 {
+  font-size: 15px;
+  font-family: "raleway semibold";
+}
+.populaire_p {
+  font-size: 13px;
+  color: #756f6f;
+}
+.populaire_card_container_note {
+  margin-bottom: 15px;
+  color: #0065fc;
+  font-size: 12px;
+}
+
+.note_gris i {
+  font-size: 12px;
+  color: #e2e0e0;
+}
+
+/* Section Activités*/
+
+#ancre2 {
+  font-size: 20px;
+  font-family: "raleway semibold";
+  margin-left: 30px;
+}
+.lien_activites_marseille {
+  text-decoration: none;
+}
+.lien_activites_marseille:visited {
+  color: inherit;
+}
+
+.bloc_activites_marseille {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+.vieux_port {
+  box-shadow: 1px 1px 10px grey;
+  width: 300px;
+  border: none;
+  border-radius: 12px;
+}
+.vieux_port:hover {
+  color: #0065fc;
+}
+.vieux_port img {
+  border-radius: 12px 12px 0px 0px;
+  width: 100%;
+  height: 88%;
+  object-fit: cover;
+}
+.block {
+  width: 300px;
+}
+.fort_pomegues {
+  border: none;
+  box-shadow: 1px 1px 10px grey;
+  border-radius: 12px;
+  height: 235px;
+}
+.fort_pomegues:hover {
+  color: #0065fc;
+}
+.fort_pomegues img {
+  border-radius: 12px 12px 0px 0px;
+  width: 100%;
+  height: 80%;
+  object-fit: cover;
+}
+.iles_frioul {
+  border: none;
+  box-shadow: 1px 1px 10px grey;
+  border-radius: 12px;
+  height: 170px;
+  margin-top: 43px;
+}
+.iles_frioul:hover {
+  color: #0065fc;
+}
+.iles_frioul img {
+  border-radius: 12px 12px 0px 0px;
+  width: 100%;
+  height: 67%;
+  object-fit: cover;
+}
+.parc_calanques {
+  box-shadow: 1px 1px 10px grey;
+  border: none;
+  border-radius: 12px;
+  width: 300px;
+}
+.parc_calanques:hover {
+  color: #0065fc;
+}
+
+.parc_calanques img {
+  border-radius: 12px 12px 0px 0px;
+  width: 100%;
+  height: 88%;
+  object-fit: cover;
+}
+.notre_dame {
+  box-shadow: 1px 1px 10px grey;
+  border: none;
+  border-radius: 12px;
+  height: 210px;
+}
+.notre_dame:hover {
+  color: #0065fc;
+}
+.notre_dame img {
+  border-radius: 12px 12px 0px 0px;
+  width: 100%;
+  height: 78%;
+  object-fit: cover;
+}
+.parc_longchamp {
+  box-shadow: 1px 1px 10px grey;
+  border-radius: 12px;
+  height: 205px;
+  margin-top: 33px;
+}
+.parc_longchamp:hover {
+  color: #0065fc;
+}
+.parc_longchamp img {
+  border-radius: 12px 12px 0px 0px;
+  width: 100%;
+  height: 74%;
+  object-fit: cover;
+}
+.activites_p {
+  margin-left: 10px;
+  font-size: 15px;
+  font-family: "raleway semibold";
+}
+/*footer*/
+footer {
+  margin-top: 50px;
+  font-size: 10px;
+}
+.footer_liste {
+  margin-left: 30px;
+  margin-right: 240px;
+}
+.h3_footer {
+  font-size: 20px;
+  font-family: "raleway semibold";
+}
+.footer_ul {
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 0px;
+}
+.footer_li {
+  list-style-type: none;
+  margin-bottom: 15px;
+}
+
+.footer {
+  display: flex;
+  border: none;
+  background-color: #f2f2f2;
+  padding-bottom: 25px;
+  padding-top: 40px;
+}

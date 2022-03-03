@@ -1,0 +1,212 @@
+@media (max-width: 991px) and (min-width: 768px) {
+  .header_container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .header_menu_link {
+    padding-left: 25px;
+    padding-right: 25px;
+    border-bottom: 2px solid #cfc6c6;
+  }
+
+  nav {
+    width: 100%;
+    margin-right: 0px;
+  }
+
+  .header_menu_link {
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  .header_menu_link:hover {
+    border-bottom: 2px solid #0065fc;
+    border-top: none;
+  }
+
+  /* 1ere Section, formulaire de recherche */
+  .h1_principal {
+    margin-right: 30px;
+  }
+
+  .recherche {
+    width: 100%;
+    display: flex;
+    margin-left: 0px;
+  }
+
+  .logo_lieu {
+    display: flex;
+    justify-content: center;
+    border-radius: 12px 0px 0px 12px;
+    padding: 23px;
+    position: relative;
+    left: 10%;
+    z-index: 30;
+    width: 5px;
+  }
+  .logo_lieu i {
+    color: black;
+  }
+
+  #lieu {
+    width: 40%;
+    left: 60px;
+
+    padding-left: 15px;
+  }
+  .bouton {
+    display: none;
+  }
+  .loupe {
+    display: block;
+    background-color: #0065fc;
+    cursor: pointer;
+    border-radius: 0px 12px 12px 0px;
+    position: relative;
+    left: 40%;
+    top: 0px;
+    margin-top: 0px;
+    z-index: 21;
+    border: none;
+    height: 48px;
+  }
+
+  .loupe i {
+    color: white;
+    background-color: #0065fc;
+    font-size: 18px;
+  }
+
+  /* 1ere Section, filtres*/
+  .bloc_filtre {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 95%;
+  }
+
+  .bloc_filtre form i {
+    font-size: 13px;
+    background-color: #deebff;
+    padding: 12px;
+    border-radius: 20px;
+    color: #0065fc;
+    margin-right: 5px;
+  }
+  .filtre_formulaire {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .filtre {
+    margin-bottom: 10px;
+  }
+
+  .info {
+    margin-left: 0px;
+  }
+  .informations {
+    margin-left: 30px;
+  }
+
+  /* 2eme section*/
+
+  .bloc_hebergement_groupe {
+    border: none;
+    border-radius: 15px;
+    background-color: #f2f2f2;
+    height: 100%;
+    width: 100%;
+    margin-right: 10px;
+    margin-left: 0px;
+    margin-top: 20px;
+    padding: 0px;
+  }
+  #ancre1 {
+    font-size: 20px;
+    padding-left: 15px;
+  }
+  .card_group {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .card {
+    height: auto;
+    margin-bottom: 30px;
+    width: 340px;
+  }
+
+  .card_image img {
+    height: 165px;
+  }
+
+  .card_h3 {
+    font-size: 18px;
+  }
+  .card_p {
+    font-size: 16px;
+  }
+  .card_container_note {
+    padding-bottom: 5px;
+  }
+
+  .bloc_hebergement {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 0px 20px 0px 20px;
+  }
+
+  /*Aside*/
+
+  .populaire {
+    width: 100%;
+    margin: 0px;
+  }
+
+  .populaire_h3 {
+    font-size: 18px;
+  }
+  .populaire_p {
+    font-size: 16px;
+  }
+  .populaire_card_image {
+    width: 200px;
+  }
+  .populaire_card_image img {
+    width: 100%;
+  }
+  .populaire_card_container {
+    margin-left: 15px;
+  }
+  .bloc_activites_marseille {
+    padding: 0px 10px 0px 20px;
+  }
+  .activites_p {
+    margin-top: 5px;
+  }
+  .vieux_port {
+    margin-right: 10px;
+  }
+  .block {
+    margin-right: 10px;
+  }
+  .iles_frioul {
+    height: 180px;
+    margin-top: 33px;
+  }
+  .parc_calanques {
+    margin-right: 10px;
+  }
+  /*footer*/
+
+  .footer_liste {
+    margin-right: 70px;
+  }
+
+  .footer {
+    padding-bottom: 0px;
+  }
+}

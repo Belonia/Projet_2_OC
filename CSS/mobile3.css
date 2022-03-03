@@ -1,0 +1,48 @@
+@media (max-width: 280px) {
+  .h1_principal {
+    margin-right: 0px;
+    margin-left: 15px;
+  }
+  .petit_caractere {
+    margin-left: 15px;
+  }
+  .bloc_filtre {
+    margin-left: 15px;
+  }
+  .h2_filtre {
+    margin-left: 0px;
+  }
+  .filter {
+    margin: 0px;
+  }
+  #hebergements {
+    padding-left: 4px;
+  }
+  #activites {
+    padding-right: 0px;
+  }
+  #lieu {
+    width: 55%;
+    padding-left: 5px;
+  }
+  .recherche {
+    width: 95%;
+  }
+  .loupe {
+    left: 57%;
+  }
+  .bloc_hebergement_groupe {
+    padding: 0px 5px;
+    width: unset;
+  }
+  .card_group {
+    margin: 0px;
+  }
+  .populaire_card {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .bloc_activites_marseille {
+    padding: 0px 5px;
+  }
+}
